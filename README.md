@@ -34,7 +34,7 @@ cd ComfyUI/custom_nodes/
 克隆本仓库：
 
 Bash
-git clone https://github.com/你的用户名/ComfyUI-ZTurbo-Style-Transfer.git
+git clone https:https://github.com/WuMIn259/ComfyUI-ZTurbo-Style-Transfer.git
 重启 ComfyUI 即可使用。
 
 🚀 节点说明

@@ -13,7 +13,7 @@ class ZImageTurboStyleTransfer:
                 "negative_prompt": ("CONDITIONING",),
                 # 结构保留强度，建议配合 ControlNet 时拉到 1.0，单纯图生图建议 0.7-0.85
                 "style_strength": ("FLOAT", {"default": 0.85, "min": 0.1, "max": 1.0, "step": 0.05}),
-                "cfg": ("INT", {"default": 8, "min": 1, "max": 50, "step": 1}),
+                "cfg": ("INT", {"default": 1, "min": 1, "max": 50, "step": 1}),
                 "steps": ("INT", {"default": 8, "min": 1, "max": 12, "step": 1}),
                 "seed": ("INT", {"default": 0, "min": 0, "max": 0xffffffffffffffff}),
                 # 色彩匹配强度滑块
